@@ -48,8 +48,8 @@ app.*.map.json
 .widget_preview/
 
 # Firebase / segredos
-# Valores reais das chaves (use firebase_env.example.json como modelo)
-firebase_env.json
+# Keys reais (use lib/firebase_keys.example.dart como modelo)
+/lib/firebase_keys.dart
 # Config nativa do Android gerada pelo FlutterFire (contém a apiKey)
 /android/app/google-services.json
 # Config nativa do iOS/macOS, caso venha a ser gerada
